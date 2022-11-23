@@ -9,7 +9,7 @@ function reverse(num: number): number {
   return reverse;
 }
 
-function isPalindrome(x: number): boolean {
+function checkPalindrome(x: number): boolean {
   if (x < 0) {
     return false;
   }
@@ -22,6 +22,6 @@ function isPalindrome(x: number): boolean {
 // Time: O(n): where n is the length of number
 // Time: O(1)
 
-console.log(isPalindrome(121)); // true
-console.log(isPalindrome(500)); // false
-console.log(isPalindrome(12321)); // true
+console.log(checkPalindrome(121)); // true
+console.log(checkPalindrome(500)); // false
+console.log(checkPalindrome(12321)); // true
