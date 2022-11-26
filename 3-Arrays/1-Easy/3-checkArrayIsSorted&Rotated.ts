@@ -19,3 +19,6 @@ function check(nums: number[]): boolean {
 // as the array is in increasing, count increments if any decreasing order is found
 // also check the first element as it is missed by the loop, if arr[0] is current then arr[last] is its previous, so also check **** arr[last] (i.e. previous element) > arr[0] (i.e. current) ****, thats a decreasing pair, either it should be increasing pair.
 // even if the array is rotated, there will be only 1 such pair of decreasing e.g 3 4 5 1 2, the pair is (5,1)
+
+// Time: O(n)
+// Space: O(1)
