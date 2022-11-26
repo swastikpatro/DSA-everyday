@@ -13,7 +13,7 @@ function selectionSort(arr: number[], n: number): number[] {
   return arr;
 }
 
-console.log(selectionSort([13, 46, 24, 52, 20, 9], 6)); // [ 9, 13, 20, 46, 24, 52 ]
+console.log(selectionSort([13, 46, 24, 52, 20, 9], 6)); // [ 9, 13, 20, 24, 46, 52 ]
 console.log(selectionSort([5, 4, 3, 2, 1], 5)); // [ 1, 2, 3, 4, 5 ]
 console.log(selectionSort([4, 1, 3, 9, 7], 5)); // [ 1, 3, 4, 7, 9 ]
 
