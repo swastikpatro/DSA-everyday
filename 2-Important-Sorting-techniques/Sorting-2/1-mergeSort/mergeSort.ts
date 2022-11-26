@@ -44,7 +44,7 @@ function merge(
   }
 
   // Copy the remaining elements of
-  // R[], if there are any
+  // rightArr[], if there are any
   while (j < n2) {
     array[k] = rightArr[j];
     j++;
