@@ -15,9 +15,7 @@ function lenOfLongSubarr(nums: number[], k: number): number {
       maxLengthOfSubarr = Math.max(currLengthOfSubarr, maxLengthOfSubarr);
     }
 
-    if (hash.hasOwnProperty(sum)) {
-      continue;
-    } else {
+    if (!hash.hasOwnProperty(sum)) {
       hash[sum] = i;
     }
   }
