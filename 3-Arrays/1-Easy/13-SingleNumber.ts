@@ -1,3 +1,4 @@
+// Find the number that appears once, and other numbers twice.
 // Using XOR
 
 function singleNumber(nums: number[]): number {
