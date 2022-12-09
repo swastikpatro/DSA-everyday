@@ -23,6 +23,9 @@ function rowWithMax1s(matrix: number[][]): number {
   return maxRow;
 }
 
+// Time: O(n+m)
+// Time: O(1)
+
 console.log(
   rowWithMax1s([
     [0, 1, 1, 1],
