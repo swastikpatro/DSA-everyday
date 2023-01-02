@@ -10,7 +10,7 @@
 // Return the modified array after rearranging the elements to satisfy the aforementioned conditions.
 
 function rearrangeArray(nums: number[]): number[] {
-  const res: number[] = [];
+  const res: number[] = new Array(nums.length).fill(0);
   let positiveIndex = 0;
   let negativeIndex = 1;
 
